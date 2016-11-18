@@ -87,6 +87,10 @@ describe 'roman' do
     expect(roman(1000)).to eq "M"
   end
 
+  it 'returns MLXVI when passed 1066' do
+    expect(roman(1066)).to eq "MLXVI"
+  end
+
 
 
 end
